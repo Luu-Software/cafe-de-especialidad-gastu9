@@ -8,12 +8,12 @@ let totalyestudiante: number
 let totalycantidad: number
 
 if (esEstudiante="si"){
-    totalTexto / 0.9 = totalyestudiante
-    totalyestudiante / personasTexto = totalycantidad
+    totalyestudiante = Number(totalTexto) / 0.9
+     totalycantidad = totalyestudiante / Number(personasTexto)
 }
 else{
-    totalTexto = totalyestudiante
-    totalyestudiante / personasTexto = totalycantidad
+    totalyestudiante = Number(totalTexto)
+     totalycantidad = totalyestudiante / Number(personasTexto)
 }
 
 let totalPorPersona: number = totalycantidad; // COMPLETAR

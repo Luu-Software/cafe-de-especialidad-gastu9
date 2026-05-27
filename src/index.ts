@@ -8,7 +8,7 @@ let totalyestudiante: number
 let totalycantidad: number
 
 if (esEstudiante="si"){
-    totalyestudiante = Number(totalTexto) / 0.9
+    totalyestudiante = Number(totalTexto) * 0.9
      totalycantidad = totalyestudiante / Number(personasTexto)
 }
 else{

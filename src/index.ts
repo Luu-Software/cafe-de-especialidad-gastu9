@@ -7,7 +7,7 @@ let personasTexto: string = preguntar('Dividir la cuenta entre: ');
 let totalyestudiante: number
 let totalycantidad: number
 
-if (esEstudiante="si"){
+if (esEstudiante==="si"){
     totalyestudiante = Number(totalTexto) * 0.9
      totalycantidad = totalyestudiante / Number(personasTexto)
 }
